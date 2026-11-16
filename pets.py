@@ -21,6 +21,14 @@ class Cat(Pet):
 def speak(self):
 return "Meow."
 
+<<<<<<< main
+  return"Hiss"
+
+=======
+  return "Purr"
+>>>>>>>  main
+      
+
 class Bird(Pet):
   def __init__( self, name, age,  can_fly = True):
     super().__init__(name, age)
