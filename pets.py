@@ -19,14 +19,7 @@ return "Woof!"
 
 class Cat(Pet):
 def speak(self):
-return "Meow."
-
-<<<<<<< main
-  return"Hiss"
-
-=======
-  return "Purr"
->>>>>>>  main
+return "Purr"
       
 
 class Bird(Pet):
